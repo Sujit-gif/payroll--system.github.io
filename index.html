@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+       <head>
+	        <meta charset="utf-8">
+	        <title>Welcome to homepage</title>
+			<link rel="stylesheet" href="style.css">
+			<script src="https://kit.fontawesome.com/d2a86be3c2.js" crossorigin="anonymous"></script>
+			<style>
+				h1{
+					text-align: center;
+  				  	padding-top: 52px;
+					margin-top: 35px;
+					color: white;
+					text-decoration: underline solid 2px white;
+
+					
+					
+				}
+				.loginbox{
+					top: 55%;
+				}
+			</style>
+	   </head>
+	   <body>
+			
+		<h1> Employe Payroll System </h1>
+		
+	        <div class="loginbox">
+			    <h3> Admin Login Panel </h3>
+			    <form method="post" action="newfile.php">
+				     <p>Username</p>
+					
+					 <input type="text" name="username" placeholder="Admin ID">
+					 <p>Password</p>
+					 <input type="password" name="password" placeholder="*****">
+					 <input type="submit" name="submit" value="Submit">
+				</form>
+			</div>
+	   </body>
+</html>
